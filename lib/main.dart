@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plant_shop_app/theme.dart';
 import 'package:plant_shop_app/views/home_page.dart';
-import 'package:plant_shop_app/views/wellcome_page.dart';
 
 void main() {
   runApp(const App());

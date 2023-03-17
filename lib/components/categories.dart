@@ -44,8 +44,9 @@ class _CategoriesState extends State<Categories> {
           children: <Widget>[
             Text(
               categories[index],
-              style: const TextStyle(
-                  fontWeight: FontWeight.bold, color: Colors.black),
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  color: selectedIndex == index ? Colors.black : Colors.grey),
             ),
             Container(
               margin: const EdgeInsets.only(top: kDefaultPadding / 4),
